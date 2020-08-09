@@ -31,6 +31,8 @@ Other files are the survey results and a python file for some of the funcions us
 
 Analysis of the findings and results can be found at the post available [here](https://medium.com/@sraab2003/a-glimpse-into-the-2020-popular-programing-languages-788fe4825bb9).
 
+Not much of the data were missing for the job seek column and the desires language and used language. Thus I felt safe in dropping the rows where these data were missing. I have used one categorical variable for the job seek, where to get better the mean of the available data I have converted them into numerical to be able to get the statistical mean of the segmentation. More explanation can be found in part III of the blog for the conversion between the job seek categorical value to a numerical one. For the language used, I have dropped the N/A values, because they do not contribute to the popular language usage. If they happen to be missing, it would mean that the respondent did not use any of them nor planning to use one in the upcoming year. 
+
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Must give credit to Stack Overflow for the data analyzed. Complete list of data can be fount [here](https://insights.stackoverflow.com/survey).  
